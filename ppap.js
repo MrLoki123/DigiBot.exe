@@ -19,6 +19,9 @@ client.on('message', message => {
   }
   if (message.content.startsWith(prefix + "dirk")) {
   	message.channel.sendMessage('DORK!');
+  } 
+  if (message.content.startsWith(prefix + "anime")) {
+  	message.channel.sendMessage('https://orig07.deviantart.net/1559/f/2011/362/a/a/berserk_wallpaper_1920_x_1080p_by_edd000-d4kkg2b.jpg');
   }
 });
 client.login('');
